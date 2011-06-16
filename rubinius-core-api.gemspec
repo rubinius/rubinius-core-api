@@ -3,10 +3,10 @@
 base_specification = proc do |s|
   s.name = %q{rubinius-core-api}
   s.version = "0.0.1"
-  s.authors = ["Charles Oliver Nutter"]
+  s.authors = ["Charles Oliver Nutter", "Evan Phoenix"]
   s.date = Time.now
   s.description = "Cross-impl versions of interesting Rubinius core classes"
-  s.email = ["headius@headius.com"]
+  s.email = ["headius@headius.com", "evan@fallingsnow.net"]
   s.files = Dir['{lib,src}/**/*'] + Dir['{*.txt,*.gemspec,Rakefile}']
   s.homepage = "http://github.com/rubinius/rubinius-core-api"
   s.require_paths = ["lib"]
