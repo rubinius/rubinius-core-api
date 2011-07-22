@@ -12,5 +12,5 @@ if defined?(JRUBY_VERSION)
 elsif defined?(RUBY_ENGINE) && RUBY_ENGINE == 'rbx'
   # do nothing for Rubinius
 else
-  raise "Only supported on JRuby and Rubinius"
+  require 'rubinius/compat'
 end

@@ -24,7 +24,7 @@ if defined?(JRUBY_VERSION)
   end
  
   task :package => :jar
-elsif defined?(RUBY_ENGINE) && RUBY_ENGINE == 'rbx'
+else
   task :package do
     # nop
   end
