@@ -12,6 +12,7 @@ base_specification = proc do |s|
   s.require_paths = ["lib"]
   s.summary = "Cross-impl versions of interesting Rubinius core classes"
   s.test_files = Dir["test/test*.rb"]
+  s.license = 'BSD 3-Clause'
 end
 
 if defined?(JRUBY_VERSION)
